@@ -2,7 +2,7 @@
 //const io = require('socket.io-client');
 const name1 = prompt("Enter your name ");
 
-const socket = io("http://localhost:8000");
+//const socket = io("http://localhost:8000");
 const socket = io("https://guarded-falls-33664.herokuapp.com/");
 
 const form = document.getElementById("form-container");
