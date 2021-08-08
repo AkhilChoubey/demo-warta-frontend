@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <title>Warta - Chatting App</title>
+</head>
+<body>
+    <div class="status-bar">
+        <h2>Warta  App</h2>
+        <p class="copyright">Copyright © Akhil Choubey</p>
+        </div>
+    <div class="chat">
+        <div class="chat-container">
+            <div class="conversation">
+                 <div class="conversation-container">
+
+              
+                </div>  
+                <form id="form-container" >
+                    <input class="input-msg" name="input" placeholder="Type a message" autocomplete="off" autofocus></input>
+                    <button class="send" type="submit">
+                        <div class="circle">
+                             <span class="iconify" data-icon="zmdi:mail-send"></span>
+                        </div>
+                    </button>
+                </form>
+            </div>        
+        </div>
+    </div>  
+    <!-- <script src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <script src='https://guarded-falls-33664.herokuapp.com/socket.io/socket.io.js'></script>
+
+    <!-- <script src="node_modules/socket.io-client/dist/socket.io.js"></script> -->
+    <script src="index.js"></script>
+    
+</body>
+</html>
