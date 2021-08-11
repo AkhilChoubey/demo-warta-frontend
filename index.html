@@ -42,7 +42,7 @@
 
               
                 </div>  
-                <form id="form-container" >
+                <form id="form-container" onclick="return checkNull();">
                     <input class="input-msg" name="input" placeholder="Type a message" autocomplete="off" autofocus></input>
                     <button class="send" type="submit">
                         <div class="circle">
@@ -59,6 +59,11 @@
     <!-- <script src="node_modules/socket.io-client/dist/socket.io.js"></script> -->
     <script src="index.js"></script>
     <script>
+        function checkNull(){
+            if(document.querySelector(".input-msg").value === ''){
+                return false;
+            }
+        }
         
         function checkSelection(){
         
