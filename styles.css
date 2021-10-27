@@ -96,7 +96,7 @@ text-align: right;
 
 .status-bar {
   height: 57px;
-  background: #004e45;
+  background: #ad0707;/*#004e45; */
   color: #fff;
   font-size: 24px;
   padding: 0 8px;
@@ -225,7 +225,8 @@ height: 20px;
   left: -10px;
 }
 .message.sent {
-  background: #e1ffc7;
+  background: #1abefe; /* #e1ffc7; */
+  color: #fff;
   border-radius: 5px 0px 5px 5px;
   float: right;
 }
@@ -313,7 +314,7 @@ input {
 }
 
 .send .circle {
-  background: #008a7c;
+  background: #ad0707; /*#008a7c;*/
   border-radius: 50%;
   color: #fff;
   position: relative;
