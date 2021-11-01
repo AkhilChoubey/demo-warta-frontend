@@ -96,7 +96,7 @@ text-align: right;
 
 .status-bar {
   height: 57px;
-  background: #ad0707;/*#004e45; */
+  background: #0d4f69;/*#ad0707;/*#004e45; */
   color: #fff;
   font-size: 24px;
   padding: 0 8px;
@@ -314,7 +314,7 @@ input {
 }
 
 .send .circle {
-  background: #ad0707; /*#008a7c;*/
+  background: #0d4f69;/*#ad0707; #008a7c;*/
   border-radius: 50%;
   color: #fff;
   position: relative;
